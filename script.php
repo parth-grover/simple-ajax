@@ -1,5 +1,5 @@
 <?php 
-include("C:/xampp/htdocs/test_ajax/include.php");
+include("C:/xampp/htdocs/simple-ajax/include.php");
 
 function getList($values)
 {

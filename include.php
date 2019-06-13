@@ -1,8 +1,8 @@
 <?php
 
 function __autoload($class){
-	if(file_exists("C:/xampp/htdocs/test_ajax/class/$class.php")):
-		require_once("C:/xampp/htdocs/test_ajax/class/$class.php");
+	if(file_exists("C:/xampp/htdocs/simple-ajax/class/$class.php")):
+		require_once("C:/xampp/htdocs/simple-ajax/class/$class.php");
 	endif;	
 }
 
