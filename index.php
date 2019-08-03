@@ -49,9 +49,9 @@
 <script>
  $('#contact_form').submit(function(e){
 	 e.preventDefault();
-	//ajax_post('getList',JSON.stringify({hello:'hello',hello1:'hello1',hello2:'hello2'}));
-	//ajax_post('getList',JSON.stringify(['hello','hello1','hello2']));                                  /// pass array when want to submit some data
-	ajax_form_post('http://localhost/simple-ajax/script','getList',$("#contact_form").serializeArray());   /// Pass form id when want to submit whole form data
+	//simple_ajax_post('getList',JSON.stringify({hello:'hello',hello1:'hello1',hello2:'hello2'}));
+	//simple_ajax_post('getList',JSON.stringify(['hello','hello1','hello2']));                                  /// pass array when want to submit some data
+	simple_ajax_form_post('http://localhost/simple-ajax/script','getList',$("#contact_form").serializeArray());   /// Pass form id when want to submit whole form data
 })
 </script>
 </html>

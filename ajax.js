@@ -1,4 +1,4 @@
-function ajax_post(url,function2call,values)
+function simple_ajax_post(url,function2call,values)
 {
 	$.ajax({
             url: url,
@@ -13,7 +13,7 @@ function ajax_post(url,function2call,values)
 	console.clear();	
 }
 
-function ajax_form_post(url,function2call,values)
+function simple_ajax_form_post(url,function2call,values)
 {
 	$.ajax({
             url: url,
