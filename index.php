@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="container my-5">
-		<h1 class="text-center">Simple Ajax Framework</h1>
+		<h1 class="text-center">Simple Ajax Framework </h1>
 		<form id="contact_form" method="post">
 		  <div class="form-group">
 			<label for="exampleInputEmail1">Email address</label>
